@@ -83,7 +83,7 @@ const Header = () => {
             <NavLink to="/about">About</NavLink>
           </li>
           <li onClick={() => toggleSubmenu(1)}>
-            <a>Services</a>
+            <a href="/services">Services</a>
             {submenuVisible === 1 && (
               <ul className="submenu">
                 <li onClick={handleMenuItemClick}>
