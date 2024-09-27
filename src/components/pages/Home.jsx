@@ -6,7 +6,7 @@ import UpdateModal from "./UpdateModal";
 
 const Home = () => {
   const [data, setData] = useState([]);
-  const [students, setStudents] = useState([]);
+  const [setStudents] = useState([]);
   const [selectedStudent, setSelectedStudent] = useState(null);
   const [isModalVisible, setModalVisible] = useState(false);
   const [isUpdateModalOpen, setIsUpdateModalOpen] = useState(false);
